@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* 防脱发 */
+  box-sizing: border-box;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+a {
+  /* 让a元素继承父元素的颜色 */
+  color: inherit;
+  /* 去掉下划线 */
+  text-decoration: none;
+}
+
+body {
+  /* 最小宽度，通常为设计稿的宽度 */
+  min-width: 1280px;
+  font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑,
+    STHeiti, MingLiu;
+  /* 字体抗锯齿渲染，可以让文字看上去更加平滑清晰 */
+  -webkit-font-smoothing: antialiased;
+}

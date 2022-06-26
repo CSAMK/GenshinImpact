@@ -1,0 +1,125 @@
+/* 页脚 */
+#footer {
+    background: #111;
+    font-size: 14px;
+    color: #aaa;
+    padding-bottom: 35px;
+    min-width: 540px;
+}
+
+/* 页脚图标区域 */
+.footer-icon {
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.footer-icon a {
+    margin: 0 15px;
+}
+
+.footer-icon .iconfont {
+    font-size: 30px;
+}
+
+/* 页脚内容区域 */
+.footer-main {
+    background: #000;
+    padding: 30px 0 20px;
+}
+
+.footer-contact {
+    width: 100%;
+    /* width: 1280px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.corp-logo {
+    display: block;
+    width: 119px;
+}
+
+.footer-line {
+    width: 1px;
+    height: 28px;
+    background: #666;
+    margin: 0 25px;
+}
+
+.game-logo {
+    display: block;
+    width: 110px;
+}
+
+/* 页脚链接区域 */
+.footer-links {
+    margin-bottom: 28px;
+}
+
+.footer-links a{
+    padding: 0 10px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+.footer-links a:first-child {
+    padding-left: 0;
+}
+
+.footer-links a:last-child {
+    border-right: 0;
+}
+
+/* 页脚信息内容区域 */
+.footer-info {
+    line-height: 2;
+}
+
+.footer-info p {
+    margin: 0;
+}
+
+/* 页脚图片区域 */
+.footer-img {
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+
+.footer-img a {
+    margin: 0 5px;
+}
+
+.footer-img a:first-child {
+    margin-left: 0;
+}
+
+.footer-text {
+    text-align: left;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .footer-left {
+        padding: 0;
+        margin-top: 186px;
+    }
+}

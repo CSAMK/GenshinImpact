@@ -1,0 +1,131 @@
+a:hover {
+    text-decoration: none;
+}
+
+.demo-navbar {
+    background: none;
+    border: none;
+}
+
+.demo-container {
+    padding: 0 55px 0 75px;
+    background: rgba(17, 17, 17, .75);
+    ;
+    min-width: 540px;
+}
+
+.demo-toggle {
+    margin-top: 16px;
+}
+
+/* 音乐图标 */
+.music-ico {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../原神集训营素材/asset/music.png);
+    background-size: 100%;
+    margin-top: 18px;
+}
+
+/* logo 图标 */
+.demo-logo {
+    width: 127px;
+    height: 66px;
+    padding: 0;
+    margin-left: 25px !important;
+    margin-right: 25px;
+    background: url(../原神集训营素材/asset/logo.png) center;
+    text-indent: -9999px;
+}
+
+
+
+/* 导航部分 */
+.demo-navbar-left {
+    color: #ccc;
+    font-size: 17px;
+    position: relative;
+}
+
+
+.navbar-default .demo-navbar-left>li {
+    text-align: center;
+    height: 60px;
+}
+
+.navbar-default .demo-navbar-left>.line {
+    width: 0;
+    height: 0;
+}
+
+.navbar-default .demo-navbar-left>.active>a,
+.navbar-default .demo-navbar-left>li>a {
+    background: none;
+    color: inherit;
+}
+
+.demo-navbar-left>li>a:hover,
+.demo-navbar-left>li.active {
+    color: #fff !important;
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    background: none !important;
+}
+
+.demo-navbar-right>li {
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-default .demo-navbar-right>li>a {
+    padding: 0;
+    color: #fff;
+    font-size: 17px;
+    opacity: .6;
+}
+
+.navbar-default .demo-navbar-right>li>a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.demo-navbar-right>li>a>img {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+@media (min-width: 768px) {
+    .demo-navbar-left {
+        display: flex;
+        width: 634px;
+    }
+
+    .navbar-default .demo-navbar-left>li {
+        height: 66px;
+        margin: 0 30px;
+    }
+
+    .demo-navbar-left>li>a {
+        height: 100%;
+        padding: 0;
+        letter-spacing: 5px;
+        line-height: 66px;
+    }
+
+    .navbar-default .demo-navbar-left .line {
+        position: absolute;
+        margin: 0;
+        width: 40px;
+        height: 5px;
+        background: #69e0ff;
+        left: 30px;
+        top: 0;
+        transition: all 0.2s ease-in-out 0s;
+    }
+
+    .demo-navbar-right>li>a {
+        margin-left: 30px;
+    }
+}
